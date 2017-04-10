@@ -1,11 +1,11 @@
 # NSS-python-family-dictionary
-##Setup
+## Setup
 
 ```
 mkdir -p ~/workspace/python/exercises/family_dictionary && cd $_
 touch family_dict.py
 ```
-##Instructions
+## Instructions
 
 Define a dictionary that contains information about several members of your family. Use the following example as a template.
 
