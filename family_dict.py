@@ -1,29 +1,23 @@
-my_family = [
-    {
+my_family = {
+    'middle brother': {
         'name': 'Preston',
         'age': 23,
-        'order': 'brother'
     },
-    {
+    'mother': {
         'name': 'Katherine',
         'age': 56,
-        'order': 'mother'
     },
-    {
+    'father': {
     	'name': 'Manning',
     	'age': 68,
-    	'order': 'father'
     },
-    {
+    'youngest brother': {
     	'name': 'Manning',
     	'age': 22,
-    	'order': 'brother'
     }
-]
+}
 
 #iterate over the dictionary and print out the family members
 
-
-for value in my_family:
-	print("{} is my {} and is {} years old.".format(value['name'], value['order'], value['age'])) 
-	# print(value)
+for key,value in my_family.items():
+	print(value['name'] + " is my " + key + " and is " + str(value['age']) + " years old.") 
